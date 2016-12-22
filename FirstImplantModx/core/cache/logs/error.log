@@ -1,0 +1,16 @@
+[2016-11-17 00:10:27] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, modTransportPackage.release_index DESC LIMIT 20' at line 1
+)
+
+[2016-11-17 00:10:57] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, modTransportPackage.release_index DESC LIMIT 20' at line 1
+)
+
