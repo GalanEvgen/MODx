@@ -1,249 +1,272 @@
 @import "bourbon"
 @import "vars"
 @import "libs"
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
 
-//Custom styles here
+.mm-menu
+	&.mm-offcanvas
+		z-index: 90
+	.fa
+		display: none
+
 section
-	border-top: 3px solid #ffffff
-	padding: 70px 0
+	min-height: 50px
+	position: relative
+	overflow: hiden
+
+//---------------------------competition section stile start-------------------------//
+.competition
+	z-index: 5
+	background-color: $BgColor
+	position: relative
+.top-text
+	color: #fff
+	position: relative
+	text-align: center
 	h2
-		text-align: center
-		font-size: em(24px)
-		font-weight: bold
-		text-transform: uppercase
-		margin: 0 0 15px
-		letter-spacing: 1px
-	.personal-header
-		font-size: 13px
-		text-align: left
-		margin-bottom: 30px
-		color: #414141
-.s-descr-wrap
-	text-align: center
-	.s-descr
-		display: inline-block
-		text-transform: uppercase
-		font-size: em(14px)
-		position: relative
-		margin-bottom: 100px
-		font-weight: 600
-		&::after
-			content: ""
-			height: 2px
-			left: 50%
-			margin-left: -150px
-			margin-top: 60px
-			position: absolute
-			width: 300px
-
-.person
-	text-align: center
-	margin: 35px 0
-	img
-		max-width: 220px
-		display: inline-block
-		border-radius: 50%
-		border: 3px solid #ffffff
-
-.s-about
-	p
-		margin-bottom: 25px
-	ul,
-	li
-		margin: 0
+		font-size: em(26px)
+		font-weight: 500
+		margin: 0 0 10px 0
 		padding: 0
-		list-style-type: none
-	li
-		margin-bottom: 10px
-	.social-wrap
-		margin-top: 25px
+		+kerning (3)
+	.s_descr_wrap
+		text-align: center
+		.s_descr
+			position: relative
+			display: inline-block
+			margin-bottom: 40px
+			font-size: em(16px)
+			text-transform: uppercase
+			font-weight: 500
+			+kerning (2)
+			&::after
+				position: absolute
+				margin-left: -160px
+				margin-top: 35px
+				left: 50%
+				background-color: $mainColor
+				content: ""
+				width: 320px
+				height: 1px
 
-.social-wrap
-	li
-		display: inline-block
-		font-size: 20px
-		padding: 0 3px
-
-.resume-container
-	.left .resume-description strong
-		margin-left: 10px
-	.right .resume-description strong
-		margin-right: 10px
-	.left
-		text-align: right
-		border-right: #d2d2d2 1px solid
+.comp-item
+	position: relative
+	display: block
+	text-align: center
+	background-color: rgba(0, 15, 39, 0.5)
+	margin: 20px 0 10px 0
+	text-align: center
+	border: 1px solid $mainColor
+	&:hover
+		border: 1px solid #fff
+		transition: all 2s
+		.comp-img-wrap
+			.w-svg
+				background-color: $accentWiteBgColor
+	.comp-img-wrap
+		text-align: center
+		img
+			max-width: 100%
+		.w-svg
+			background-color: $hoverButoonColor
+			width: 100%
+			position: absolute
+			left: 0
+			top: 50px
+			padding: 10px 5px 10px 5px
+			transition: all .5s
+	.comp-content
+		img
+			max-width: 100%
 		h3
-			text-align: right
-	.right
-		text-align: left
-		h3
-			text-align: left
-	h3
-		margin-top: 30px
-	.year
-		font-weight: 600
-		font-style: italic
-		display: inline-block
-		padding: 0 15px
-		margin-bottom: 15px
-	strong
-		font-weight: 600
-		font-style: normal
-		text-transform: uppercase
-	.resume-description
-		font-style: italic
-	.resume-item
-		margin-bottom: 40px
+			padding: 0
+			color: #fff
+			text-transform: uppercase
 		p
-			margin-top: 10px
-		&:last-child
-			margin-bottom: 0
-			p
-				margin-bottom: 0
+			padding: 0 15px
+			margin: 0
+			color: #ffffff
 
-.resume-icon
-	font-size: 40px
-	margin-bottom: 35px
-	.year
-		display: inline-block
-		margin-bottom: 15px
-		padding: 0 10px
 
-.section-content
-	.filter-div
+//---------------------------competition section stile END-------------------------//
+
+//---------------------------galery section stile start-------------------------//
+.galer
+	z-index: 10
+
+.masonry-container
+	padding: 0
+.item
+	margin: 10px 0
+	padding: 0 10px
+	transition: all .5s ease
+	&:hover
+		z-index: 20
+		transform: scale(1.4)
+		img
+			border: 1px solid $mainColor
+	img
+		max-width: 100%
+		transition: all .3s
+//---------------------------galery section stile END-------------------------//
+
+//---------------------------catalog section stile start-------------------------//
+.catalog
+	color: #fff
+	.ajax-container
+		position: relative
+		margin-top: 20px
+		text-align: center
+		.ajax-item
+			position: relative
+			display: inline-block
+			text-align: center
+			border-bottom: 1px solid $mainColor
+			padding: 0
+			.ajax-item-logo
+				text-align: center
+				img
+					height: 100px
+					padding: 3px
+					margin-top: 30px
+					border: 3px solid rgb(212, 47, 47)
+					border-radius: 10em
+					background-color: $accentBgColor
+			.ajax-item-about
+				text-align: center
+				h3
+					margin: 25px 0 5px 0
+					padding: 0
+				p
+					margin: 0
+			.ajax-butt
+				text-align: center
+				.ajax-button
+					padding: 13px 0
+					margin: 50px 10px 30px 10px
+					width: 100%
+					//padding: 13px 70px
+			.ajax-item-checkbox1,
+			.ajax-item-checkbox2,
+				//z-index: 50
+				text-align: center
+				ul,li
+					list-style-type: none
+				ul
+					padding: 0
+					margin-top: 35px
+		
+//---------------------------catalog section stile END-------------------------//
+
+//---------------------------footer section stile start-------------------------//
+
+.main-fut
+	background-size: cover
+	background-image: url(../img/bg/f3.jpg)
+	position: relative
+	color: #fff
+	.wr-foot-logo
+		background-color: $generalBgColor
+		text-align: center
+		margin-top: 20px
+		padding: 20px 0
+		border: 1px solid $mainColor
+		.footer-about
+			font-size: em(18px)
+			margin: 0
+			padding: 20px
+			color: #fff
+	.footer-adress
+		h3
+			margin: 5px 0 15px 0
+			padding: 5px 3px
+			border-bottom: 1px solid $mainColor
 		ul,
 		li
-			list-style-type: none
-			padding: 0
 			margin: 0
-			text-align: center
+			padding: 0 0 0 10px
+			list-style-type: none
+			font-size: em(16px)
 		li
-			display: inline-block
-			margin: 0 10px
-			text-transform: uppercase
-			font-size: 12px
-			cursor: pointer
-			line-height: 2
-		ul
-			margin-bottom: 50px
+			&:hover
+				i
+					transform: scale(1.5)
+					color: $hoverAccent
+			i
+				margin: 0 10px 0 0
+				transition: all .5s ease
+			a
+				color: #fff
 
-.portfolio-item
-	display: none
+	.icon-wr
+		text-align: center
+		ul,li
+			margin: 0
+			list-style-type: none
+			li
+				margin-top: 8px
+				transition: all .5s ease
+				&:hover
+					transform: scale(1.5)
+		a
+			font-size: em(25px)
+			color: $mainColor
+			transition: all .5s ease
+			&:hover
+				color: $hoverAccent
+
+.bottom-text
+	z-index: 0
 	padding: 0
 	img
-		width: 100%
-	.port-item-cont
-		position: absolute
-		top: 0
-		left: 0
-		width: 100%
-		height: 100%
-		background-color: rgba(0,0,0,.8)
-		text-align: center
-		padding-top: 15%
-		opacity: 0
-		transition: all .5s
-	&:hover .port-item-cont
-		opacity: 1
-		padding-top: 20%
-	h3
-		color: #fff
-		margin-bottom: 0
-	a
-		background-color: transparent
-		border: #fff 1px solid
-		padding: 5px 20px
+		color: #ffffff
+		height: 100px
+	.text-wrap
+		padding: 0
+		margin: 0
 		display: inline-block
-		text-decoration: none
-		transition: all .5s
-		&:hover
-			//color: #fff
-			border: #fff 1px solid
+		font-size: em(18px)
+		border-bottom: 3px dotted $mainColor
+		h1
+			font-style: italic
+			font-weight: lighter
+			line-height: 1
+			color: #ffffff
+			margin: 0
+			&:first-letter
+				color: $mainColor
+				font-weight: bold
+//---------------------------footer section stile END-------------------------//
 
-.podrt-descr
-	background-color: #fff
-	max-width: 500px
-	margin: auto
-	p,
-	h3
-		padding: 20px
-		padding-bottom: 0
-	h3
-		margin-bottom: 0
-		text-align: center
-		text-transform: uppercase
-		font-weight: 400
-		margin-top: 20px
-		padding-top: 25px
-	p
-		margin-top: 0
-	img
-		width: 100%
-		margin-top: 10px
+//----------------------------popup form start----------------------//
+.hidden
+	display: none
 
-.modal-box-content
+.participate
+	padding: 20px 30px
+	text-align: left
+	max-width: 400px
+	margin: 40px auto
 	position: relative
+	color: #fff
 
-.contact-box
-	margin-bottom: 30px
-	h3
-		text-align: left
-		color: #000
-		margin-bottom: 0px
-		font-size: 14px
-	.contacts-icon
-		font-size: em(30px)
-	p
-		margin-top: 5px
-
-.main-form
-	button
-		border: none
-		color: #fff
-		line-height: 40px
-		padding: 0 30px
-		font-size: em(12px)
-		text-transform: uppercase
-		font-weight: 600
-		margin-top: 10px
-		float: right
-		transition: all .3s
 .form-group
 	display: block
-	margin-bottom: 20px
-	.color-element
+	margin-bottom: 30px
+	.color_element
 		font-weight: 700
 		font-size: 18px
 	.text-danger
-		font-size: em(12px)
+		font-size: 11px
 		margin-top: 5px
 		display: block
-		ul,
-		li
-			margin: 0
-			padding: 0
-			list-style-type: none
 	input,
 	textarea
 		display: block
 		width: 100%
-		border: 1px solid #ccc
 		margin-top: 5px
 		line-height: 40px
 		text-indent: 12px
-		font-size: em(12px)
-		background-color: transparent
-
-.main-footer
-	padding: 50px 0
-	font-size: em(16px)
-	font-weight: 300
-	border-top: 3px solid #ffffff
-	.social-wrap
-		float: right
-		line-height: 0
-		ul
-			margin: 0
-
 
 @import "media"

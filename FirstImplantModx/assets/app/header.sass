@@ -1,79 +1,223 @@
+@import "assets/app/libs/superfish/dist/css/superfish"
+@import "assets/app/libs/owl.carousel/dist/assets/owl.carousel.min"
 @import "bourbon"
-//@import "sass/vars"
+@import "sass/vars"
 @import "sass/base"
-@import "sass/color"
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
+
+
 //First screen styles
-section,
-.main-head
+
+
+
+header
+	max-height: 100vh
 	position: relative
-	h3
+	//overflow: hiden
+.head
+	background-size: cover
+	background-image: url(img/bg/22.jpg)
+	overflow: hiden
+	position: relative
+.top-line
+	//position: fixed
+	//border-bottom: 1px dotted $hoverButoonColor
+	background-color: $generalBgColor
+	width: 100%
+	z-index: 999
+	text-align: center
+	font-size: em(16px)
+	ul, li
+		list-style-type: none
+		padding: 0
+		margin: 0
+	.sf-menu
+		display: inline-block
+		float: none
+		margin: 0 auto -6px
+		ul
+			background-color: $generalBgColor
+		li
+			background-color: transparent
+			transition: background-color .4s ease
+			&:hover
+				background-color: $accentBgColor
+			a
+				color: #fff
+				padding: 10px 40px
+				&:hover
+					color: $hoverAccent
+		>li
+			display: inline-block
+
+.button-top-slide
+	left: 100px
+	opacity: 0
+
+.slider-wrap
+	z-index: 1
+	position: relative
+	.slider-nav-container
+		position: relative
+		.slider-nav
+			position: absolute
+			width: 100%
+			z-index: 2
+			color: #fff
+			font-size: em(38px)
+			div
+				cursor: pointer
+				position: absolute
+				top: 300px
+				transition: all .5s ease
+				&:last-child
+					right: 0
+				&:hover
+					color: #fff
+					transform: scale(1.5)
+
+.slider
+	top: 0
+	position: absolute
+	width: 100%
+	overflow-x: hidden
+	.slide-wrap
+		z-index: 2
+		float: left
+		&.active
+			.slide-img-wrap
+				transform: scale(1)
+				opacity: 1
+			h2
+				left: 0px
+				opacity: 1
+			p
+				left: 0px
+				opacity: 1
+			.button-top-slide
+				left: 0px
+				opacity: 1
+	.slide
+		color: #fff
+		margin-top: 150px
+		position: relative
+		&-bg
+			padding-top: 50px
+			padding-bottom: 50px
+			position: relative
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			border-top: 1px dotted $accentBgColor
+			border-bottom: 1px dotted $accentBgColor
+			&::before
+				content: ' '
+				background-color: rgba(115, 150, 255, 0.08)
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				position: absolute
+		&-content
+			position: relative
+			z-index: 1
+	.owl-dots
+		display: inline-block
+		position: relative
+		bottom: 0
+		width: 100%
 		text-align: center
+		.owl-dot
+			z-index: 2
+			width: 40px
+			height: 10px
+			background-color: $generalBgColor
+			border-radius: 3px
+			display: inline-block
+			margin: 5px 5px
+			cursor: pointer
+			border: 1px solid #fff
+			transition: background-color .5s ease
+			&.active
+				background-color: $mainColor
+.content-wr
+	h2
+		position: relative
+		opacity: 0
+		margin: 0
+		left: 100px
+		font-size: em(30px)
 		text-transform: uppercase
-		font-weight: 400
-		font-size: em(12px)
-		margin-top: 0
-		margin-bottom: 35px
-.main-head
-	min-height: 100vh
-	background: url(img/bg.jpg) no-repeat center center
-	background-size: auto 100%
-	padding-top: 20px
+		transition: all 1s ease
+	p
+		position: relative
+		opacity: 0
+		left: 100px
+		margin: 0
+		font-size: em(16px)
+		transition: all 1s ease
 
-.logo-container
-	float: left
-	z-index: 20
+.slide-img-wrap
+	padding-top: 15px
+	transform: scale(.8)
+	opacity: 0
+	transition: all 1s
+	img
+		border: 1px solid $mainColor
+		width: 100%
 
-svg
-	position: relative
-	height: 70px
-	width: 70px
-	left: 5px
-	z-index: 20
+//----------------------//mobile-menu//----------------------------//
 
 .toggle-mnu
-	width: 60px
-	height: 60px
-	position: fixed
-	z-index: 100
 	border: none
-	right: 20px
-	top: 20px
+	width: 100%
+	height: 38px
+	position: fixed
+	z-index: 80
+	padding: 0
+	left: 0px
+	top: 0px
+	background-color: $mainButoonColor
 	span
+		transition: all 1.3s
 		display: block
 
-$w: 28px
+
+$w: 30px
 $h: 3px
 
-.sandwich 
+.sandwich
+	//border: none
 	width: $w
 	height: $w
 	position: absolute
 	top: 8px
-	bottom: 0
-	left: 0
+	//bottom: 0
+	left: 8px
 	right: 0
-	margin: auto
-	z-index: 200
-
+	//margin: auto
+	z-index: 4
+.top-mnu
+	color: #fff
+	font-size: em(18px)
+	+kerning (1.5)
 .sw-topper
 	position: relative
 	top: 0
 	width: $w
 	height: $h
-	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
 	display: block
-	transition-delay: 0.2s, 0s
+
 .sw-bottom
 	position: relative
 	width: $w
 	height: $h
-	top: $h * 2.4
-	background: rgb(255, 255, 255)
+	top: $h * 2.2
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
@@ -82,12 +226,11 @@ $h: 3px
 	position: relative
 	width: $w
 	height: $h
-	top: $h * 4.8
-	background: rgb(255, 255, 255)
+	top: $h * 4.5
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: all 0.5s
-	transition-delay: 0.2s, 0s
+	transition-delay: 0.1s
 .sandwich.active
 	.sw-topper
 		top: 9px
@@ -100,89 +243,10 @@ $h: 3px
 		top: 0
 		transform: rotate(180deg)
 
-.top-mnu
-	position: fixed
-	width: 100%
-	height: 100%
-	background-color: rgba(0,0,0,.85)
-	z-index: 50
-	right: 0
-	top: 0
-	display: none
-	ul,
-	li
-		list-style-type: none
-		padding: 0
-		margin: 0
-	ul
-		margin-top: 180px
-		text-align: center
-		+animation-duration(.5s)
-		li
-			&:nth-child(1) a
-				+animation-delay(0)
-			&:nth-child(2) a
-				+animation-delay(.1s)
-			&:nth-child(3) a
-				+animation-delay(.2s)
-			&:nth-child(4) a
-				+animation-delay(.3s)
-		a
-			color: #fff
-			display: block
-			text-transform: uppercase
-			font-size: em(18px)
-			opacity: 0
-			position: relative
-			height: 60px
-			outline: none
-			text-decoration: none
-			+transition(all 0.4s ease)
-			span
-				display: block
-				position: relative
-				top: -40px
-				left: 0
-				height: 100%
-				+transition(all 0.8s ease)
-				&:hover
-					background-color: rgba(255,255,255,.08)
-
-.top-wrapper
-	display: table
-	width: 100%
-	height: 100%
-	position: absolute
-	top: 0
-	left: 0
-	z-index: 10
-	.top-descr
-		display: table-row
-		.top-centered
-			display: table-cell
-			text-align: center
-			vertical-align: middle
-	.top-text
-		display: inline-block
-		+transition(all 1s ease)
-		p
-			margin: 0
-			text-transform: uppercase
-			font-weight: 600
-			+animation-delay(1s)
-		h1
-			display: inline-block
-			padding: 10px 40px
-			color: #fff
-			border: 5px solid #fff
-			text-transform: uppercase
-			font-weight: bold
-			font-size: em(45px)
-			background-color: rgba(0,0,0,.3)
-			margin-left: 20px
-			margin-right: 20px
-			+animation-delay(.5s)
-
-.toggle-mnu
-	background-color: rgba(0, 0, 0, .3)
-	border: 1px solid #fff
+.sw-topper,
+.sw-bottom,
+.sw-footer
+	transition: background-color .5s ease
+	background: #fff
+	
+	//----------------------//mobile-menu END//----------------------------//
