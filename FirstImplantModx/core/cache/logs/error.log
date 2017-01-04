@@ -14,3 +14,78 @@ Array
     [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, modTransportPackage.release_index DESC LIMIT 20' at line 1
 )
 
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 643) Could not load class: sf-menu from mysql.sf-menu.
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 643) Could not load class: sf-menu from mysql.sf-menu.
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 1629) Could not load class sf-menu
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 643) Could not load class: sf-menu from mysql.sf-menu.
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 643) Could not load class: sf-menu from mysql.sf-menu.
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\xpdo.class.php : 643) Could not load class: sf-menu from mysql.sf-menu.
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menuindex ASC' at line 1
+[2017-01-04 16:13:39] (ERROR @ G:\OpenServer\domains\ModxStart\core\components\pdotools\model\pdotools\pdotools.class.php : 972) PHP warning: current() expects parameter 1 to be array, string given
+[2017-01-04 19:21:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:21:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:21:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:21:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:21:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:21:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:21:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:21:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:23:46] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:23:46] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:23:47] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:23:47] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:23:55] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:23:55] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:23:55] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:23:55] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:24:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_par0ba78bb0326502335f8683fdf331013a_dat0.jpeg
+[2017-01-04 19:24:17] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:11] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:11] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:11] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:11] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:36] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:36] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:36] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:36] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__srce5e9a3f52cbb1a00f6daa6d6db3b85b1_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 19:36:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: G:\OpenServer\domains\ModxStart\core\cache\phpthumb\modxstart__src36ef88ea94c72c0f25b2a64067d71e9d_parfe75230c38c1dd77cfb659e43ae25583_dat0.jpeg
+[2017-01-04 19:36:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\model\phpthumb\modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2017-01-04 20:08:30] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:08:31] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:13:48] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:13:48] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:33:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:33:44] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:35:13] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:35:14] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:39:38] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:39:38] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:42:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:42:07] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:46:43] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 20:46:43] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 21:51:19] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-04 21:51:19] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL

@@ -5,6 +5,10 @@
   'aliasMap' => 
   array (
     'index.html' => 1,
+    'competition.html' => 5,
+    'galery.html' => 6,
+    'service.html' => 7,
+    'contacts.html' => 8,
     '404.html' => 2,
     'sitemap.xml' => 3,
     'robots.txt' => 4,
@@ -14,9 +18,13 @@
     0 => 
     array (
       0 => 1,
-      1 => 2,
-      2 => 3,
-      3 => 4,
+      1 => 5,
+      2 => 6,
+      3 => 7,
+      4 => 8,
+      5 => 2,
+      6 => 3,
+      7 => 4,
     ),
   ),
   'webLinkMap' => 
