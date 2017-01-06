@@ -89,3 +89,13 @@ OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpt
 [2017-01-04 20:46:43] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
 [2017-01-04 21:51:19] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
 [2017-01-04 21:51:19] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:19:34] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:19:34] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:21:15] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:21:15] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:24:33] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:24:33] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:30:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:30:16] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:31:22] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
+[2017-01-05 16:31:23] (ERROR @ G:\OpenServer\domains\ModxStart\core\xpdo\om\xpdoobject.class.php : 811) modTemplateVar: Attempt to set NOT NULL field type to NULL
